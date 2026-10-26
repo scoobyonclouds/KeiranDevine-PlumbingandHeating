@@ -274,20 +274,100 @@
 <section id="reviews" class="reviews"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Customer feedback</div><h2>Good work speaks for itself.</h2><p>"We take pride in every job we do. But don't just take our word for it — see what our customers have to say about our service, workmanship and attention to detail."</p></div>
 <div class="reviewgrid"><article class="review"><div class="stars">★★★★★</div><p>“REVIEW DATA”</p><strong>— Customer name</strong></article><article class="review"><div class="stars">★★★★★</div><p>“REVIEW DATA”</p><strong>— Customer name</strong></article><article class="review"><div class="stars">★★★★★</div><p>“REVIEW DATA”</p><strong>— Customer name</strong></article></div></div></section>
 <section class="contact" id="contact"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Get in touch</div><h2>Let's get your plumbing sorted.</h2><p>Tell us a little about the job. We'll get back to you as soon as we can.</p></div>
-<div class="contactgrid"><div class="contactdetails"><h3>Contact details</h3><p><strong>Phone</strong><br><a href="tel:+447904084934">07904084934</a></p><p><strong>Mail</strong><br><a href="mailto:Kierandevine1@hotmail.co.uk">Kierandevine1@hotmail.co.uk</a></p><p><strong>Instagram</strong><br>
-<a href="https://www.instagram.com/kierandevine.plumbingheating?utm_source=ig_web_button_share_sheet&psln=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">@Kierandevine.plumbingheating</a></p><div style="text-align:center;margin-top:20px;">
-  <p><strong>Scan to follow us</strong></p>
-  <img src="kierandevine.plumbingheating_qr.png"
-       alt="Scan to visit our Instagram"
-       style="width:130px;height:130px;object-fit:contain;background:white;padding:6px;border-radius:8px;">
-</div><p><strong>Service area</strong><br>Glasgow and central belt</p><p><strong>Opening hours</strong><br>9am - 5pm</p>
-<div><label for="name">Your name</label><form id="quoteForm" class="form"><input id="name" name="name" required autocomplete="name" placeholder="Name"></div>
-<div><label for="phone">Phone number</label><input id="phone" name="phone" autocomplete="tel" placeholder="Best number to reach you"></div>
-<div class="field full"><label for="email">Email address</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com"></div>
-<div class="field full"><label for="job">What do you need help with?</label><select id="job" name="job"><option>Repair or leak</option><option>Bathroom or shower</option><option>Kitchen or sink</option><option>Radiator or heating plumbing</option><option>New installation</option><option>Other</option></select></div>
-<div class="field full"><label for="details">Tell us about the job</label><textarea id="details" name="details" required placeholder="Describe the issue, location and a suitable time to contact you."></textarea></div>
-<div class="field full"><button class="btn blue" type="submit">Prepare enquiry email ↗</button><p class="formnote">This starter form opens your email app with the enquiry prepared. It does not send or store the form on this website. Add a proper form service later if needed.</p><p id="formStatus" aria-live="polite" class="formnote"></p></div>
-</form></div></form></div></div></section>
+<div class="contactgrid">
+
+  <div class="contactdetails">
+    <h3>Contact details</h3>
+
+    <p><strong>Phone</strong><br>
+      <a href="tel:+447904084934">07904084934</a>
+    </p>
+
+    <p><strong>Mail</strong><br>
+      <a href="mailto:Kierandevine1@hotmail.co.uk">
+        Kierandevine1@hotmail.co.uk
+      </a>
+    </p>
+
+    <p><strong>Instagram</strong><br>
+      <a href="https://www.instagram.com/kierandevine.plumbingheating/"
+         target="_blank" rel="noopener noreferrer">
+        @Kierandevine.plumbingheating
+      </a>
+    </p>
+
+    <div style="text-align:center;margin-top:20px;">
+      <p><strong>Scan to follow us</strong></p>
+      <img src="kierandevine.plumbingheating_qr.png"
+           alt="Scan to visit our Instagram"
+           style="width:130px;height:130px;object-fit:contain;background:white;padding:6px;border-radius:8px;">
+    </div>
+
+    <p><strong>Service area</strong><br>
+      Glasgow and central belt
+    </p>
+
+    <p><strong>Opening hours</strong><br>
+      9am - 5pm
+    </p>
+  </div>
+
+  <form id="quoteForm" class="form">
+    <h3>Request a free quote</h3>
+    <p>Tell us about your plumbing or heating job.</p>
+
+    <div class="fields">
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" required
+               autocomplete="name" placeholder="Name">
+      </div>
+
+      <div class="field">
+        <label for="phone">Phone number</label>
+        <input id="phone" name="phone"
+               autocomplete="tel" placeholder="Best number to reach you">
+      </div>
+
+      <div class="field full">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" required
+               autocomplete="email" placeholder="you@example.com">
+      </div>
+
+      <div class="field full">
+        <label for="job">What do you need help with?</label>
+        <select id="job" name="job">
+          <option>Repair or leak</option>
+          <option>Bathroom or shower</option>
+          <option>Kitchen or sink</option>
+          <option>Radiator or heating plumbing</option>
+          <option>New installation</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="field full">
+        <label for="details">Tell us about the job</label>
+        <textarea id="details" name="details" required
+                  placeholder="Describe the issue, location and a suitable time to contact you."></textarea>
+      </div>
+
+      <div class="field full">
+        <button class="btn blue" type="submit">
+          Prepare enquiry email ↗
+        </button>
+        <p class="formnote">
+          This form prepares an email in your email app.
+          It does not send or store the enquiry automatically.
+        </p>
+        <p id="formStatus" aria-live="polite" class="formnote"></p>
+      </div>
+    </div>
+  </form>
+
+</div>
+</section>
 </main>
 <footer class="footer"><div class="wrap"><span>© <span id="year"></span> Kieran Devine Plumbing and Heating. All rights reserved.</span><span>Plumbing & heating in Glasgow and Central Belt· <a href="#home">Back to top ↑</a></span></div></footer>
 <script>
