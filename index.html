@@ -280,8 +280,7 @@
   <img src="kierandevine.plumbingheating_qr.png"
        alt="Scan to visit our Instagram"
        style="width:130px;height:130px;object-fit:contain;background:white;padding:6px;border-radius:8px;">
-</div><p><strong>Service area</strong><br>Glasgow and central belt</p><p><strong>Opening hours</strong><br>9am - 5pm</p><p class="small">Only list emergency availability, accreditations, insurance and regulated services if accurate and applicable.</p></div>
-<form class="form" id="quoteForm"><h3>Request a quote</h3><div class="fields">
+</div><p><strong>Service area</strong><br>Glasgow and central belt</p><p><strong>Opening hours</strong><br>9am - 5pm</p>
 <div><label for="name">Your name</label><input id="name" name="name" required autocomplete="name" placeholder="Name"></div>
 <div><label for="phone">Phone number</label><input id="phone" name="phone" autocomplete="tel" placeholder="Best number to reach you"></div>
 <div class="field full"><label for="email">Email address</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com"></div>
@@ -296,7 +295,7 @@ document.getElementById("year").textContent=new Date().getFullYear();
 document.getElementById("quoteForm").addEventListener("submit",function(e){
  e.preventDefault();
  const d=new FormData(e.currentTarget);
- const recipient="hello@example.com"; // Replace with the company's real email address.
+ const recipient="kierandevine1@hotmail.co.uk"; // Replace with the company's real email address.
  const subject=encodeURIComponent("Website enquiry — "+d.get("job"));
  const body=encodeURIComponent("Name: "+d.get("name")+"\nPhone: "+d.get("phone")+"\nEmail: "+d.get("email")+"\nJob: "+d.get("job")+"\n\nDetails:\n"+d.get("details"));
  document.getElementById("formStatus").textContent="Your email app should open with the enquiry details. Review them and press Send in your email app.";
